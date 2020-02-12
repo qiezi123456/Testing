@@ -2,7 +2,7 @@
 
 ### a. Individual designs
 
-Design 1: Shouyi Zhang (szhang651)
+__Design 1: Shouyi Zhang (szhang651)__
 
 * pros
   * Lot of compositions used - which make sense in a way (i.e. if a Player is removed, then the Game should also be removed)
@@ -27,7 +27,7 @@ Design 1: Shouyi Zhang (szhang651)
   * What does the start() function in SettingsActivity do?
 
 
-Design 2: Ying Yu (yyu413)
+__Design 2: Ying Yu (yyu413)__
 * pros
   * Straightforward (my design was a little convoluted), which might be a good thing if we are overthinking this project (which may likely be the case lol)
   * I have similar relationships of board, setting, game!
@@ -50,7 +50,7 @@ Design 2: Ying Yu (yyu413)
   * When reprent an operation in UML diagram. we usually follow this formatting: `+ operation1(params):returnType`.
 
 
-Design 3: Lily Fang (qfang9)
+__Design 3: Lily Fang (qfang9)__
 ![image](Design-Lily.png)
 
 * pros
@@ -71,7 +71,7 @@ Design 3: Lily Fang (qfang9)
   * It would be better that let lines have direction, such as `→` .
   * It would be better add `+` or `-` in front of a attribute and function to indicate if it is `private` or `public`.
 
-Design 4: Kevin Gaan (kgaan3)
+__Design 4: Kevin Gaan (kgaan3)__
 * pros
   * Tried to make it language agnostic
   * Class names are intuitive.
