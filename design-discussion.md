@@ -2,29 +2,29 @@
 
 ### a. Individual designs
 
-__Design 1: Shouyi Zhang (szhang651)__
+* __Design 1: Shouyi Zhang (szhang651)__
 
-* pros
-  * Lot of compositions used - which make sense in a way (i.e. if a Player is removed, then the Game should also be removed)
-  * I like the Game class being treated as a controller for the GameActivity class
-  * So far it seems we all agree that the board should be a 2D array in Java :)
-  * displayRemainingTime(), isValidAction(), The function 'calculatePoints()' will be called at the end of each loop of the game (I like the calculation of the score on the fly method)
-  * I like the box next to SettingsActivity which defined the range of each attribute.
-  * I like the goBackToMainMenu() function in Game/Settings/Statistics.
-  * The stopManually() function allowed player to exit the game before time count to zero.
+  * _pros_
+    * Lot of compositions used - which make sense in a way (i.e. if a Player is removed, then the Game should also be removed)
+    * I like the Game class being treated as a controller for the GameActivity class
+    * So far it seems we all agree that the board should be a 2D array in Java :)
+    * displayRemainingTime(), isValidAction(), The function 'calculatePoints()' will be called at the end of each loop of the game (I like the calculation of the score on the fly method)
+    * I like the box next to SettingsActivity which defined the range of each attribute.
+    * I like the goBackToMainMenu() function in Game/Settings/Statistics.
+    * The stopManually() function allowed player to exit the game before time count to zero.
 
-* cons
-  * I think it’s specific for Android, but we may want something more general for our UML diagram
-  * I like the separate Settings class, but is there a way we can use that class in other classes so that we don’t duplicate information (e.g. boardSize)?
-  * How to ensure ordering of statistics?
-  * The class names doesn't seem very intuitive.
-  * The Game class looks a little strange to me. The player doesn't need to start the game to view statistics. Maybe the class name should be changed to MainMenu. The play relationship between Player and Game should be changed into start app.
-  * There should be a Board class.
-  * There should be more operations in Player class.
-  * The derive attributes are not labled.
-  * Not all the relationships are defined (lines connecting classes), for example, the player can "View" statistics, "Adjust" settings, "Reroll" board.
-  * There seems to be some mistakes in the 1 to 1, 1 to n, n to n relationships.
-  * What does the start() function in SettingsActivity do?
+  * _cons_
+    * I think it’s specific for Android, but we may want something more general for our UML diagram
+    * I like the separate Settings class, but is there a way we can use that class in other classes so that we don’t duplicate information (e.g. boardSize)?
+    * How to ensure ordering of statistics?
+    * The class names doesn't seem very intuitive.
+    * The Game class looks a little strange to me. The player doesn't need to start the game to view statistics. Maybe the class name should be changed to MainMenu. The play relationship between Player and Game should be changed into start app.
+    * There should be a Board class.
+    * There should be more operations in Player class.
+    * The derive attributes are not labled.
+    * Not all the relationships are defined (lines connecting classes), for example, the player can "View" statistics, "Adjust" settings, "Reroll" board.
+    * There seems to be some mistakes in the 1 to 1, 1 to n, n to n relationships.
+    * What does the start() function in SettingsActivity do?
 
 
 __Design 2: Ying Yu (yyu413)__
