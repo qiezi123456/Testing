@@ -4,7 +4,7 @@
 ## A. Individual Designs
 
 ### Design 1: Shouyi Zhang (szhang651)
-![image](../images/design_shouyi.png)
+![image](./design_shouyi.png)
 
 _Pros_
   * Lot of compositions used - which make sense in a way (i.e. if a `Player` is removed, then the `Game` should also be removed).
@@ -32,7 +32,7 @@ _Cons_
 ---
 
 ### Design 2: Ying Yu (yyu413)
-![image](../images/design_ying.png)
+![image](./design_ying.png)
 
 _Pros_
   * Straightforward (Kevin's design was a little convoluted), which might be a good thing if we are overthinking this project (which may likely be the case)
@@ -59,7 +59,7 @@ _Cons_
 ---
 
 ### Design 3: Lily Fang (qfang9)
-![image](../images/design_lily.png)
+![image](./design_lily.png)
 
 _Pros_
   * The classes are very similar to Kevin's design.
@@ -85,7 +85,7 @@ _Cons_
 ---
 
 ### Design 4: Kevin Gaan (kgaan3)
-![image](../images/design_kevin.png)
+![image](./design_kevin.png)
 
 _Pros_
   * Tried to make it language agnostic.
@@ -115,7 +115,7 @@ _Cons_
 ---
 
 ### B. Team Design
-![image](../images/design_team.png)
+![image](./design_team.png)
 
 After discussion, we decided to start with Kevin's design and improve it. 
 
