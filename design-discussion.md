@@ -4,7 +4,7 @@
 ## A. Individual Designs
 
 ### Design 1: Shouyi Zhang (szhang651)
-![image](./design_shouyi.png)
+![image](design_shouyi.png)
 
 _Pros_
   * Lot of compositions used - which make sense in a way (i.e. if a `Player` is removed, then the `Game` should also be removed).
@@ -32,7 +32,7 @@ _Cons_
 ---
 
 ### Design 2: Ying Yu (yyu413)
-![image](./design_ying.png)
+![image](design_ying.png)
 
 _Pros_
   * Straightforward (Kevin's design was a little convoluted), which might be a good thing if we are overthinking this project (which may likely be the case)
