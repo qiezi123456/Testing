@@ -1,9 +1,9 @@
 # Word Game Software Design Group Discussion
 
----
 ## A. Individual Designs
-
+---
 ### Design 1: Shouyi Zhang (szhang651)
+
 ![image](design_kevin.png)
 
 _Pros_
