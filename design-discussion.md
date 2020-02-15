@@ -4,7 +4,7 @@
 ## A. Individual Designs
 
 ### Design 1: Shouyi Zhang (szhang651)
-![image](design_shouyi.png)
+![image](GitHub-Mark.png)
 
 _Pros_
   * Lot of compositions used - which make sense in a way (i.e. if a `Player` is removed, then the `Game` should also be removed).
